@@ -1,0 +1,1 @@
+document.write(add(4, 5));

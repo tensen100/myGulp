@@ -1,0 +1,415 @@
+.mainArea ul,
+.mainArea li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.mainArea p,
+.mainArea h1,
+.mainArea h2,
+.mainArea h3,
+.mainArea h4,
+.mainArea h5 {
+  margin: 0;
+}
+.mainArea .mainContainer {
+  font-family: "Microsoft Yahei", SimHei, STHeiti, Helvetica, serif, Arial;
+  width: 950px;
+  line-height: 1;
+  text-align: center;
+}
+.mainArea .mainContainer .mainHead {
+  position: relative;
+}
+.mainArea .mainContainer .mainHead .title {
+  position: relative;
+  width: 212px;
+  line-height: 52px;
+  height: 52px;
+  border-top: 4px solid #024ba5;
+  border-bottom: 4px solid #024ba5;
+  color: #024ba5;
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  margin: -10px auto 23px;
+}
+.mainArea .mainContainer .mainHead .subhead {
+  font-size: 32px;
+  color: #333333;
+  font-weight: normal;
+  line-height: 46px;
+  width: 740px;
+  margin: auto;
+  text-align: center;
+}
+.mainArea .mainContainer .mainHead .tip {
+  text-align: center;
+  font-size: 18px;
+  color: #333333;
+  line-height: 32px;
+}
+.mainArea .mainContainer .mainHead .pros {
+  margin: 0 30px;
+  overflow: hidden;
+}
+.mainArea .mainContainer .mainHead .pros .pro {
+  width: 406px;
+  float: left;
+}
+.mainArea .mainContainer .mainHead .pros .pro.mr {
+  margin-right: 72px;
+}
+.mainArea .mainContainer .mainHead .pros .pro a {
+  display: block;
+  margin-top: 30px;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  -moz-transition: 0.2s;
+  transition: 0.2s;
+}
+.mainArea .mainContainer .mainHead .pros .pro a img {
+  margin-left: -1px;
+}
+.mainArea .mainContainer .mainHead .pros .pro a:hover {
+  opacity: 0.75;
+}
+.mainArea .mainContainer .mainPart,
+.mainArea .mainContainer .mainFoot,
+.mainArea .mainContainer .mainBottom {
+  position: relative;
+}
+.mainArea .mainContainer .mainPart .bg,
+.mainArea .mainContainer .mainFoot .bg,
+.mainArea .mainContainer .mainBottom .bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.mainArea .mainContainer .mainPart:before,
+.mainArea .mainContainer .mainFoot:before,
+.mainArea .mainContainer .mainBottom:before,
+.mainArea .mainContainer .mainPart:after,
+.mainArea .mainContainer .mainFoot:after,
+.mainArea .mainContainer .mainBottom:after {
+  content: '';
+  display: table;
+}
+.mainArea .mainContainer .mainPart:after,
+.mainArea .mainContainer .mainFoot:after,
+.mainArea .mainContainer .mainBottom:after {
+  clear: both;
+}
+.mainArea .mainContainer .mainPart .title {
+  font-size: 52px;
+  font-weight: bold;
+}
+.mainArea .mainContainer .mainPart .subhead {
+  font-size: 42px;
+  font-weight: normal;
+}
+.mainArea .mainContainer .mainPart .desc {
+  font-size: 30px;
+  font-weight: normal;
+}
+.mainArea .mainContainer .mainPart .number {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin-left: -74px;
+  margin-top: -20px;
+  width: 148px;
+  height: 84px;
+}
+.mainArea .mainContainer .mainPart .partTable {
+  border-collapse: collapse;
+  background: #ffffff;
+  border: none;
+  opacity: 0.95;
+  width: auto;
+}
+.mainArea .mainContainer .mainPart .partTable td {
+  border: 2px solid #3c517b;
+  font-size: 28px;
+  line-height: 42px;
+  height: 60px;
+  color: #333333;
+}
+.mainArea .mainContainer .mainPart .partTable td.cr {
+  color: #e4010f;
+  font-weight: bold;
+}
+.mainArea .mainContainer .mainPart .partTable td.ba {
+  background: #dce6f0;
+}
+.mainArea .mainContainer .mainPart .partTable td.bb {
+  background: #adc4df;
+}
+.mainArea .mainContainer .mainPart.dbg {
+  background: url("../images/bg.png");
+}
+.mainArea .mainContainer .mainPart.part1 {
+  margin-top: 54px;
+  width: 950px;
+  height: 560px;
+  color: #ffffff;
+}
+.mainArea .mainContainer .mainPart.part1 .title {
+  margin-top: 86px;
+}
+.mainArea .mainContainer .mainPart.part1 .desc {
+  margin-top: 20px;
+}
+.mainArea .mainContainer .mainPart.part2 {
+  color: #333333;
+}
+.mainArea .mainContainer .mainPart.part2 .title {
+  margin-top: 70px;
+}
+.mainArea .mainContainer .mainPart.part2 .desc {
+  line-height: 46px;
+  margin-top: 13px;
+}
+.mainArea .mainContainer .mainPart.part2 .item {
+  margin: 16px 30px 0;
+  height: 224px;
+  overflow: hidden;
+}
+.mainArea .mainContainer .mainPart.part2 .item .img {
+  float: left;
+  width: 290px;
+  height: 224px ;
+}
+.mainArea .mainContainer .mainPart.part2 .item .img .name {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.mainArea .mainContainer .mainPart.part2 .item .itemContent {
+  margin-left: 290px;
+  height: 224px;
+  overflow: hidden;
+  padding-left: 30px;
+}
+.mainArea .mainContainer .mainPart.part2 .item .itemContent li {
+  font-size: 24px;
+  line-height: 32px;
+  float: left;
+  margin-left: 18px;
+  position: relative;
+  text-align: left;
+}
+.mainArea .mainContainer .mainPart.part2 .item .itemContent li:before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+  position: absolute;
+  left: -18px;
+  top: 10px;
+  background: #333333;
+}
+.mainArea .mainContainer .mainPart.part2 .item.item1 {
+  color: #333333;
+  background: #dcdcdc;
+}
+.mainArea .mainContainer .mainPart.part2 .item.item1 .name {
+  margin: 20px 0 18px;
+}
+.mainArea .mainContainer .mainPart.part2 .item.item1 .itemContent {
+  background: #cccccc;
+}
+.mainArea .mainContainer .mainPart.part2 .item.item1 .itemContent li {
+  width: 264px;
+  margin-top: 66px;
+}
+.mainArea .mainContainer .mainPart.part2 .item.item2 {
+  color: #ffffff;
+  background: #024ba5;
+}
+.mainArea .mainContainer .mainPart.part2 .item.item2 .name {
+  margin: 25px 0;
+}
+.mainArea .mainContainer .mainPart.part2 .item.item2 .itemContent {
+  background: #1f5ca7;
+}
+.mainArea .mainContainer .mainPart.part2 .item.item2 .itemContent li {
+  margin-top: 50px;
+  width: 172px;
+}
+.mainArea .mainContainer .mainPart.part2 .item.item2 .itemContent li:before {
+  background: #ffffff;
+}
+.mainArea .mainContainer .mainPart.part2 .item.item3 {
+  height: auto ;
+}
+.mainArea .mainContainer .mainPart.part2 .item.item3 .title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333333;
+  margin: 16px 0 32px;
+}
+.mainArea .mainContainer .mainPart.part2 .item.item3 .graph {
+  margin: 0 0 34px 19px;
+}
+.mainArea .mainContainer .mainPart.part2 .number {
+  margin-top: -35px;
+}
+.mainArea .mainContainer .mainPart.part3 {
+  color: #ffffff;
+  width: 950px;
+  height: 692px;
+}
+.mainArea .mainContainer .mainPart.part3 .title {
+  margin-top: 86px;
+}
+.mainArea .mainContainer .mainPart.part3 .subhead {
+  margin: 54px 200px 0;
+  overflow: hidden;
+}
+.mainArea .mainContainer .mainPart.part3 .subhead .fl {
+  float: left;
+}
+.mainArea .mainContainer .mainPart.part3 .subhead .fr {
+  float: right;
+}
+.mainArea .mainContainer .mainPart.part3 .desc {
+  line-height: 48px;
+  margin-top: 48px;
+}
+.mainArea .mainContainer .mainPart.part3 table {
+  margin: 10px auto 20px;
+}
+.mainArea .mainContainer .mainPart.part3 table td.col1 {
+  width: 244px;
+}
+.mainArea .mainContainer .mainPart.part3 table td.col2 {
+  width: 320px;
+}
+.mainArea .mainContainer .mainPart.part3 table td.col3 {
+  width: 300px;
+}
+.mainArea .mainContainer .mainPart.part4 .title {
+  margin-top: 90px;
+}
+.mainArea .mainContainer .mainPart.part4 .desc {
+  margin-top: 19px;
+  line-height: 46px;
+}
+.mainArea .mainContainer .mainPart.part4 .pic {
+  margin-left: 30px;
+}
+.mainArea .mainContainer .mainPart.part4 .pic.pic1 {
+  margin-top: 22px;
+}
+.mainArea .mainContainer .mainPart.part4 .pic.pic2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.mainArea .mainContainer .mainPart.part5 {
+  width: 950px;
+  height: 896px;
+  color: #ffffff;
+}
+.mainArea .mainContainer .mainPart.part5 .title {
+  margin-top: 94px;
+}
+.mainArea .mainContainer .mainPart.part5 .desc {
+  margin-top: 15px;
+  line-height: 48px;
+}
+.mainArea .mainContainer .mainPart.part5 table {
+  margin: 12px 30px 0;
+}
+.mainArea .mainContainer .mainPart.part5 table td.img {
+  height: 394px;
+  width: 50%;
+}
+.mainArea .mainContainer .mainPart.part5 table td.txt {
+  font-size: 21px;
+  line-height: 36px;
+  height: 120px;
+  text-align: left;
+  padding-left: 12px ;
+}
+.mainArea .mainContainer .mainPart.part5 table td.txt p {
+  margin-left: 6px;
+  position: relative;
+}
+.mainArea .mainContainer .mainPart.part5 table td.txt p:before {
+  position: absolute;
+  left: -6px;
+  top: -0.3em;
+  content: '.';
+}
+.mainArea .mainContainer .mainFoot {
+  width: 950px;
+  height: 398px;
+  color: #ffffff;
+  position: relative;
+}
+.mainArea .mainContainer .mainFoot .btn {
+  position: absolute;
+  left: 50%;
+  bottom: 44px;
+  margin-left: -175px;
+  width: 350px;
+  height: 70px;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  -moz-transition: 0.2s;
+  transition: 0.2s;
+}
+.mainArea .mainContainer .mainFoot .btn:hover {
+  opacity: 0.75;
+}
+.mainArea .mainContainer .mainBottom {
+  color: #ffffff;
+  margin-top: 20px;
+  width: 950px;
+  height: 216px;
+}
+.mainArea .mainContainer .mainBottom .title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 44px;
+}
+.mainArea .mainContainer .mainBottom .sub {
+  margin-top: 20px;
+}
+.mainArea .mainContainer .mainBottom .sub .line {
+  display: inline-block;
+  width: 207px;
+  height: 1px;
+  background: #ffffff;
+  margin-bottom: 12px ;
+}
+.mainArea .mainContainer .mainBottom .sub .txt {
+  margin: 0 30px;
+  font-size: 26px;
+}
+.mainArea .mainContainer .mainBottom .contact {
+  font-size: 26px;
+  line-height: 28px;
+  margin: 16px 38px 0;
+  overflow: hidden;
+}
+.mainArea .mainContainer .mainBottom .contact span {
+  padding-left: 36px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.mainArea .mainContainer .mainBottom .contact span.email {
+  background-image: url("../images/mailbox_icon.png");
+  float: left;
+}
+.mainArea .mainContainer .mainBottom .contact span.phone {
+  background-image: url("../images/phone_icon.png");
+  float: right;
+}
+
+/*# sourceMappingURL=style.css.map */
